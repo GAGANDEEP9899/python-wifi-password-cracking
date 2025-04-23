@@ -163,7 +163,7 @@ except Exception as e:
 
 
 print('*'*10,'Discovered Password','*'*10)
-print("{0:<12} {1:<}".format("HOST NAME","PASSWORD"))
+print("{0:<12} {1:<}".format("HOST NAME","Arvind_2.4"))
 for SSID,Key in final_output.items():
     print ("{:<12}|{:<12}".format(SSID, Key))
 available_devices.clear()
